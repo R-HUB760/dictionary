@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
 body {
   margin: 0;
   padding: 0;
@@ -33,7 +37,9 @@ input {
 .meaning-text {
   display: none;
 }
-
+.hide{
+  display: none;
+}
 .display {
   display: block !important;
 }
@@ -63,11 +69,19 @@ footer h2{
   padding: 15px 5px;
   border-radius: 4px;
 }
+audio{
+  border-radius: 8px;
+}
+
 @media screen and (max-width: 768px){
+
+  .container{
+    margin-top: 50px;
+  }
   footer h2{
-  top: 10px;
+  top: 0px;
   left: 0;
-  position: fixed;
+  position: relative;
   writing-mode: horizontal-tb;
   right: 0;
   background: orange;

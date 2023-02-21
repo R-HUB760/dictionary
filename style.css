@@ -55,7 +55,7 @@ input {
 }
 
 footer h2{
-  top: 180px;
+  top: 10px;
   position: fixed;
   writing-mode: vertical-rl;
   right: 0;

@@ -57,9 +57,22 @@ input {
 footer h2{
   top: 10px;
   position: fixed;
-  writing-mode: vertical-rl;
+  writing-mode: sideways-rl;
   right: 0;
   background: orange;
   padding: 15px 5px;
   border-radius: 4px;
+}
+@media screen and (max-width: 768px){
+  footer h2{
+  top: 10px;
+  left: 0;
+  position: fixed;
+  writing-mode: horizontal-tb;
+  right: 0;
+  background: orange;
+  padding: 15px 5px;
+  border-radius: 4px;
+  text-align: center;
+  }
 }

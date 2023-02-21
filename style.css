@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: salmon;
+  color-scheme: light dark;
+  color: #fff;
+}
+
+main {
+  min-width: 100%;
+}
+
+.container {
+  background: saddlebrown;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+input {
+  width: 80%;
+  padding: 8px 5px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.meaning-text {
+  display: none;
+}
+
+.display {
+  display: block !important;
+}
+
+.display span {
+  font-size: 20px;
+  color: rgb(255, 255, 255) !important;
+  display: block;
+}
+
+.display p{
+  font-size: 20px;
+  color: rgb(197, 240, 118);
+}
+
+#meaning{
+  margin-top: -20px;
+  color: #fff;
+}
+
+footer h2{
+  top: 180px;
+  position: fixed;
+  writing-mode: vertical-rl;
+  right: 0;
+  background: orange;
+  padding: 15px 5px;
+  border-radius: 4px;
+}
